@@ -1,16 +1,41 @@
-# React + Vite
+# Cove
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Come as you are.**
 
-Currently, two official plugins are available:
+Cove is a cozy, guilt-free self-care and work-life balance app. It helps you notice how you're spending your time between productivity and rest — without streaks, penalties, or pressure to perform. No fail states, no punishments. Just a gentle, comforting space to log what you did and see it reflected back to you.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Philosophy
 
-## React Compiler
+Cove is built on one core idea: motivation through comfort, not compulsion. Every feature is tested against a simple question — does this create guilt or pressure? If so, it gets redesigned or cut.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **No streaks.** Points only ever go up.
+- **No penalties.** Missed days aren't failures.
+- **Passive signals over active alerts.** The app shows you patterns; it doesn't nag.
 
-## Expanding the ESLint configuration
+## Status
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🚧 Early development — actively being built and designed.
+
+## Tech Stack
+
+- React + Vite
+- Tailwind CSS
+- Supabase (backend/auth)
+- Deployed on Vercel
+
+## Getting Started
+
+Clone the repo and install dependencies:
+
+\`\`\`bash
+git clone https://github.com/sindanoriello/cove.git
+cd cove
+npm install
+npm run dev
+\`\`\`
+
+Then open `http://localhost:5173` in your browser.
+
+## License
+
+TBD
