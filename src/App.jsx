@@ -4,6 +4,19 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import './App.css'
 
+import heroImage from './assets/cove-hero.jpg';
+function Hero() {
+  return (
+    <section
+      className="relative min-h-[500px] bg-cover bg-center flex flex-col justify-center px-8"
+      style={{ backgroundImage: `url(${heroImage})` }}
+    >
+      <h1 className="text-4xl font-serif text-ink">Cove</h1>
+      <button className="text-ink">Log in</button>
+    </section>
+  )
+}
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -17,7 +30,7 @@ function App() {
         </div>
         <div>
           <h1>Get started</h1>
-          <p>Welcome to Cove 🌊</p>
+          <p className="text-3xl font-bold text-blue-600">Welcome to Cove 🌊</p>
           <p>
             Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
           </p>
